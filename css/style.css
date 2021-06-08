@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300&family=Odibee+Sans&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+#header {
+    background: #fff;
+    height: 5%;
+    transition: all 0.5s;
+    z-index: 997;
+    padding: 1% 0;
+    box-shadow: 0px 0 20px rgb(55 66 59 / 8%);
+    display: flex;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+.logo{
+    position: relative;
+    left: 7%;
+}
+
+h4{
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:link {
+    text-decoration: none;
+    color: green;
+    font-size: 18px;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+.get-button {
+    position: absolute;
+    right: 7%;
+    background: #5fcf80;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
+    
+    transition: 0.3s;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.bg{
+        width: 100%;
+        height: 100vh;
+        background: url(../assets/images/bg.jpg) top center;
+        background-size: cover;
+        position: relative;
+        opacity: 70%;
+        filter: grayscale(40%) blur(3px);
+        z-index: 5;
+}
+
+#footer {
+    background: rgb(27, 27, 27);
+    height: 20%;
+    transition: all 0.5s;
+    z-index: 998;
+    padding: 1% 0;
+    display: flex;
+}
+.details{
+    position: relative;
+    width: 35%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    left: 7%;
+}
+h3{
+    color: white;
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 2%;
+    font-size: 30px;
+}
+h5{
+    color: white;
+    font-family: 'Hind', sans-serif;
+    font-size: 13px;
+}
+.games{
+    position: relative;
+    left:10%;
+    height: 100%;
+    width: 20%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.footer_icon{
+    
+    margin: 8% 16% 0% 0%;
+    width: 30%;
+    height: 30%;
+}
+
+.social{
+    position: relative;
+    left: 15%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    width: 20%;
+}
+
+
+.flexed_li{
+    display: flex;
+}
+
+.logo_banner{
+    z-index: 10;
+    position: absolute;
+    top: 35%;
+    right: 25%;
+    width: 50%;
+}

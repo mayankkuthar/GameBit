@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    background: url(../assets/images/background.jpg);
+    background-size: 100vw 100vh;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+.snake_img1{
+    height: 25%;
+    position: fixed;
+    left: 6%;
+    bottom: 0%;
+    
+}
+.snake_img2{
+    height: 25%;
+    position: fixed;
+    right: 6%;
+    bottom: 2%;
+    
+}
+#field{
+    position: fixed;
+    top: 5%;
+    background: linear-gradient(rgb(156, 241, 156),rgb(183, 183, 241));
+    border: 3px solid black;
+    width: 90vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(20,1fr);
+    grid-template-columns: repeat(20,1fr);
+}
+
+.snake_head{
+    background: linear-gradient(rgb(252, 64, 64),rgb(238, 235, 82));
+    border: .3vmin solid rgb(0, 0, 0);
+    border-radius: 25%;
+    transform: scale(1.05);
+}
+.snake_body{
+    background: linear-gradient(rgb(82, 105, 238),rgb(212, 65, 188));
+    border: .3vmin solid white;
+    border-radius: 40%;
+}
+
+.food{
+    
+    background-color: rgb(248, 63, 88);
+    border: .3vmin solid rgb(5, 66, 13);
+    border-radius: 100%;
+}
+
+#score{
+    position: absolute;
+    top: 15%;
+    right: 8%;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
+.title_name{
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: 300%;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    text-align: center;
+}
+
+h1{
+    color: rgb(247, 85, 85);
+    text-shadow: 4px 4px #fa9440;
+}
+
+h2{
+    color: rgb(150, 89, 248);
+    text-shadow: 2px 2px #ff7597;
+}
