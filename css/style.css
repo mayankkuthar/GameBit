@@ -7,7 +7,8 @@
 }
 #header {
     background: #fff;
-    height: 5%;
+    height: 6%;
+    width: 100%;
     transition: all 0.5s;
     z-index: 997;
     padding: 1% 0;
@@ -18,6 +19,7 @@ img {
     max-width: 100%;
     max-height: 100%;
 }
+
 
 .fixed-top {
     position: fixed;
@@ -40,6 +42,12 @@ h4{
     color: #fff;
     font-family: 'Hind', sans-serif;
 }
+
+h6{
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 100%;
+}
 a{
     text-decoration: none;
 }
@@ -54,13 +62,25 @@ a:link {
   }
 .get-button {
     position: absolute;
-    right: 7%;
+    left: 85%;
     background: #5fcf80;
     white-space: nowrap;
     color: #fff;
     border-radius: 50px;
     padding: 8px 25px;
-    
+    transition: 0.3s;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.games-button{
+    position: absolute;
+    left: 75%;
+    background: #5fcf80;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 25px;
     transition: 0.3s;
     font-size: 16px;
     display: inline-block;
