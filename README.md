@@ -4,7 +4,7 @@
 ![Logo](https://mayankkuthar.github.io/GameBit/assets/images/banner.png)
 
     
-GameBit is an open-source website where everyone can play amazing arcade games and can compete to hit the first spot in ranklist by beat high-scores, Have Fun and Enjoy!!!
+GameBit is an open-source website where everyone can play amazing web games and can compete to hit the first spot in ranklist by making new high-scores, Have Fun and Enjoy!!!
 
 ## Games :
 - Snake King & Food
