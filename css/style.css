@@ -40,16 +40,6 @@ body {
     z-index: 5;
 }
 
-h4{
-    color: #fff;
-    font-family: 'Hind', sans-serif;
-}
-
-h6{
-    color: #fff;
-    font-family: 'Hind', sans-serif;
-    font-size: 100%;
-}
 a{
     text-decoration: none;
 }
@@ -114,17 +104,45 @@ a:link {
     padding-bottom: 1%;
     left: 7%;
 }
+
+h1{
+    color: rgb(23, 143, 23);
+    font-family: 'Odibee Sans', cursive;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    font-size: 65px;
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    font-family: 'Hind', sans-serif;
+    font-size: 100%;
+}
+
 h3{
     color: white;
     font-family: 'Odibee Sans', cursive;
     margin-bottom: 2%;
     font-size: 30px;
 }
+
+h4{
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+}
+
 h5{
     color: white;
     font-family: 'Hind', sans-serif;
     font-size: 13px;
 }
+
+h6{
+    color: #fff;
+    font-family: 'Hind', sans-serif;
+    font-size: 100%;
+}
+
 .games{
     position: relative;
     left:10%;
@@ -141,6 +159,39 @@ h5{
     height: 30%;
 }
 
+.game_section_box{
+    
+    margin: 4% 3% 4% 3%;
+    width: 20%;
+    height: 20%;
+}
+
+.border_around{
+    background-color: rgb(49, 49, 49);
+    border-radius: 5%;
+}
+
+.game_section_icon{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin: 4% 8% 4% 8%;
+}
+
+.icon_name{
+    height: 10%;
+    width: 100%;
+}
+
+.icon_img_border{
+    margin: 3% 3% 3% 3%;
+    border-radius: 25%;
+    background-color: cornsilk;
+}
+
+.icon_image{
+    padding: 5% 5% 3% 5%;;
+}
+
 .social{
     position: relative;
     left: 15%;
@@ -153,6 +204,10 @@ h5{
 
 .flexed_li{
     display: flex;
+}
+
+.ever_flexed{
+    display: flex!important;
 }
 
 .logo_banner{
