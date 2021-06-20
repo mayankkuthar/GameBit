@@ -71,6 +71,15 @@ img {
     font-family: 'ZCOOL KuaiLe', cursive;
 }
 
+#hi_score{
+    position: absolute;
+    top: 40%;
+    right: 4%;
+    font-size: 200%;
+    font-weight: bold;
+    font-family: 'ZCOOL KuaiLe', cursive;
+}
+
 .title_name{
     position: absolute;
     top: 15%;
@@ -89,4 +98,9 @@ h1{
 h2{
     color: rgb(150, 89, 248);
     text-shadow: 2px 2px #ff7597;
+}
+h3{
+    color: rgb(12, 163, 233);
+    text-shadow: 2px 2px #f8a231;
+    font-size: 150%;
 }

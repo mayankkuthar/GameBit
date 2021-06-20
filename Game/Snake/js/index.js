@@ -85,6 +85,13 @@ function game_engine(){
     // When Food is eaten. Increase score and regenrate Food
     if(snake_array[0].y === food_element.y && snake_array[0].x === food_element.x){
         score_count+=1;
+
+        if(high_score_val < score_count){ //if we break high-score
+            high_score_val=score_count;
+            localStorage.setItem("high_score",JSON.stringify(high_score_val));
+            hi_score.innerHTML = "<h3>Your<br>Hi-Score : "+high_score_val+"</h3>";
+        }
+
         score.innerHTML= "<h2>Your<br>Score : "+score_count+"</h2>";
         food_sound.play();
         snake_array.unshift({x:snake_array[0].x + input_dir.x, y:snake_array[0].y + input_dir.y}); // increasing snake by adding head in the direction it was moving
@@ -141,6 +148,16 @@ function game_engine(){
 
 
 // Main Logic of Game
+
+let high_score = localStorage.getItem("high_score"); // functionality of Hi-score
+if(high_score === null){
+    high_score_val=0;
+    localStorage.setItem("high_score",JSON.stringify(high_score_val))
+}
+else{
+    high_score_val = JSON.parse(high_score);
+    hi_score.innerHTML = "<h3>Your<br>Hi-Score : "+high_score+"</h3>";
+}
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown' , e=>{
