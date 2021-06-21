@@ -145,10 +145,6 @@ function game_engine(){
 }
 
 
-
-
-// Main Logic of Game
-
 let high_score = localStorage.getItem("high_score"); // functionality of Hi-score
 if(high_score === null){
     high_score_val=0;
@@ -158,6 +154,31 @@ else{
     high_score_val = JSON.parse(high_score);
     hi_score.innerHTML = "<h3>Your<br>Hi-Score : "+high_score+"</h3>";
 }
+
+// key response for smaller devices
+function up_key_fun(){
+    input_dir.x=0;
+    input_dir.y=-1;
+}
+
+function down_key_fun(){
+    input_dir.x=0;
+    input_dir.y=1;
+}
+
+function left_key_fun(){
+    input_dir.x=-1;
+    input_dir.y=0;
+}
+
+function right_key_fun(){
+    input_dir.x=1;
+    input_dir.y=0;
+}
+
+
+// Main Logic of Game
+
 
 window.requestAnimationFrame(main);
 window.addEventListener('keydown' , e=>{
