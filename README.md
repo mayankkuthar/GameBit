@@ -19,4 +19,4 @@ GameBit is an open-source website project for web-games where everyone can play 
 
 ## Website URL :
 
-https://mayankkuthar.github.io/GameBit/
+[Click here to visit Gamebit](https://mayankkuthar.github.io/GameBit/)
