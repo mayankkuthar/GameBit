@@ -264,3 +264,22 @@ h6{
         margin-right: 5%;
     }
    }
+   /* width */
+   ::-webkit-scrollbar {
+        width: 5px;
+   }
+
+   /* Track */
+   ::-webkit-scrollbar-track {
+        background: #F57E1A;
+   }
+
+   /* Handle */
+   ::-webkit-scrollbar-thumb {
+        background: #000000;
+   }
+
+   /* Handle on hover */
+   ::-webkit-scrollbar-thumb:hover {
+        background: #A8550E;
+   }
