@@ -4,7 +4,7 @@
 ![Logo](https://mayankkuthar.github.io/GameBit/assets/images/banner.png)
 
     
-GameBit is an open-source website project for web-games where everyone can play amazing web games and can also contribute to the project through GitHub, So have Fun and Enjoy!!! 
+GameBit is an open-source website project for web-games where everyone can play amazing web games and can also contribute to the project through GitHub, So have Fun and Enjoy the games!!! 
 
 ## Games :
 - Snake King & Food
@@ -19,4 +19,4 @@ GameBit is an open-source website project for web-games where everyone can play 
 
 ## Website URL :
 
-[Click here to visit Gamebit](https://mayankkuthar.github.io/GameBit/)
+[Click here to visit GameBit](https://mayankkuthar.github.io/GameBit/)
